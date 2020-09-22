@@ -14,6 +14,8 @@ import TestReducer from 'TestReducer';
 import TestReducer2 from 'TestReducer2';
 import ReducerEx from 'ReducerEx';
 import ContextApiTest from 'ContextApiTest';
+import ContextAPI from 'ContextAPI';
+
 //import  from 'JSXss';
 //컴포넌트 클래스, 함수형 (함수형이 더 최신식)
 
@@ -39,9 +41,11 @@ function App() {
 
       <TestReducer2 />
 
-      <ReducerEx />*/}
+      <ReducerEx />
 
-      <ContextApiTest />
+      <ContextApiTest />*/}
+
+      <ContextAPI />
 
 
     </div>
