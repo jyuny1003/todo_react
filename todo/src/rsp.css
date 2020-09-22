@@ -1,0 +1,27 @@
+
+#container{
+    margin: 0 auto;
+    width: 800px;
+    text-Align: center;
+}
+
+#command{
+    font-size: 40px;
+    margin: 40px;
+}
+
+#imgs img{
+    padding: 20px;
+
+}
+
+
+#photo{
+    width: 100px;
+    height: 100px;
+}
+
+#message{
+    font-size: 30px;
+    color: blue;
+}
