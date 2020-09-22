@@ -12,7 +12,8 @@ import Timer from 'Clock';
 import Rockscissorpaper from 'rsp';
 import TestReducer from 'TestReducer';
 import TestReducer2 from 'TestReducer2';
-
+import ReducerEx from 'ReducerEx';
+import ContextApiTest from 'ContextApiTest';
 //import  from 'JSXss';
 //컴포넌트 클래스, 함수형 (함수형이 더 최신식)
 
@@ -34,9 +35,13 @@ function App() {
 
       <Timer/>
 
-      <Rockscissorpaper />*/}
+      <Rockscissorpaper />
 
       <TestReducer2 />
+
+      <ReducerEx />*/}
+
+      <ContextApiTest />
 
 
     </div>

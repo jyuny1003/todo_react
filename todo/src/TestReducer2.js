@@ -40,23 +40,18 @@ export default function TestReducer2() {
         //     name:value
         // }))
 
-        const{value, name:type} = e.target;
+        const{value, name} = e.target;
         dispatch({
-            type,
-            value
-
+            type:name,
+            value:value
         })
     }
-
 
     return(
         <>
             <div> {student.name} {student.age}</div>
             <input name="SET_NAME" type="text" value={student.name} onChange={change}/>
             <input name="SET_AGE" type="text" value={student.age} onChange={change}/>
-
-        
-        
         </>
     )
 
