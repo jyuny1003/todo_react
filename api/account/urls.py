@@ -3,8 +3,8 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('login', views.signUp),
-    path('api-jwt-auth/', obtain_jwt_token),
+    path('signup', views.signUp),
+    path('api-jwt-auth/', obtain_jwt_token), #로그인
     path('refresh-jwt-auth/', refresh_jwt_token),
     path('verify-jwt-auth/', verify_jwt_token),
 

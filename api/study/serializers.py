@@ -55,7 +55,7 @@ class StudentSerializer(ModelSerializer):
 
     class Meta:
         model = Students
-        fields = ['name', 'address', 'email', 'memo', 'phone_number', 'reg_user', 'reg_username', 'reg_email', 'reg_data']
+        fields = '__all__'
 
     def validate_phone_number(self, value):
         result = re.match("[0-9]{3}-[0-9]{3,4}-[0-9]{3,4}", value)

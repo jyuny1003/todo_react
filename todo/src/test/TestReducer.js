@@ -27,12 +27,6 @@ export default function TestReducer() {
             {name}
             <button onClick={click}>변경</button>
         
-        
-        
-        
-        
-        
-        
         </>
     )
 }

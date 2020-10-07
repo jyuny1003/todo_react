@@ -1,0 +1,31 @@
+body{
+    font-style: normal;
+    margin: 0 auto;
+    
+}
+
+#menu{
+    height: 50px;
+    border-bottom: 2px solid gray;
+    line-height: 50px;
+    font-weight: bold;
+}
+#menu1, #menu2, #menu3 {
+    margin: 0px 30px;
+    color: black;
+}
+
+#content{
+    padding: 20px;
+}
+
+#studentlist, #scorelist{
+    height: 60px;
+    border-bottom: 1px solid #C8D4D9;
+}
+
+#detail{
+    font-size: 10px;
+    color: gray;
+    line-height: 30px;
+}
